@@ -1,0 +1,14 @@
+<h1>Productos</h1>
+
+{{#if hayProductos}}
+<ul>
+    {{#each products}}
+    <li>{{this.title}}</li>
+    {{/each}}
+</ul>
+{{else}}
+<p>No hay productos</p>
+{{/if}}
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="./js/index.js"></script>

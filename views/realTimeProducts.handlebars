@@ -1,0 +1,27 @@
+<h1>Productos en tiempo real</h1>
+
+<label for="title">Title</label><input id="inputTitle" name="title" type="text">
+<label for="description">Description</label><input id="inputDescription" name="description" type="text">
+<label for="price">Price</label><input id="inputPrice" name="price" type="text">
+<label for="thumbnail">Thumbnail</label><input id="inputThumbnail" name="thumbnail" type="text">
+<button id="btnEnviar">Enviar</button>
+<br>
+<label for="eliminar">Id a eliminar</label><input id="inputEliminar" name="eliminar" type="text">
+<button id="btnEliminar">Eliminar</button>
+
+<h3>Productos</h3>
+
+{{!-- {{#if hayProductos}}
+<ul>
+    {{#each products}}
+    <li>{{this.title}} {{this.description}} {{this.price}} {{this.thumbnail}} </li>
+    {{/each}}
+</ul>
+{{else}}
+<p>No hay productos</p>
+{{/if}} --}}
+
+<div id="productos"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="./js/index.js"></script>

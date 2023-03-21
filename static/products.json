@@ -1,0 +1,44 @@
+[
+ {
+  "title": "silla",
+  "description": "para sentarse",
+  "price": "1000",
+  "thumbnail": "img/silla.jpg",
+  "id": "d2da1e1e-fc66-40ca-90e5-836980587cf2"
+ },
+ {
+  "title": "cama",
+  "description": "para dormir",
+  "price": "2000",
+  "thumbnail": "img/cama.jpg",
+  "id": "5e737e86-12cc-40c1-ab31-8cbbb89d0087"
+ },
+ {
+  "title": "tele",
+  "description": "para entretenerse",
+  "price": "3000",
+  "thumbnail": "img/tele.jpg",
+  "id": "8a2484d1-9b20-45a5-b5f5-e0f3c45e8bd6"
+ },
+ {
+  "title": "sillon",
+  "description": "para sentarse y dormir",
+  "price": "4000",
+  "thumbnail": "img/sillon.jpg",
+  "id": "e0b072bf-f1f1-4ac5-973d-1ad13ea7bafb"
+ },
+ {
+  "title": "escritorio gamer",
+  "description": "para estudiar y jugar a la compu",
+  "price": "6000",
+  "thumbnail": "img/escritorio-gamer.jpg",
+  "id": "e6a2f7c2-7bf6-4ce7-a1ef-7fbac53810e0"
+ },
+ {
+  "title": "sillonaso",
+  "description": "para sentarse calidamente",
+  "price": "120000",
+  "thumbnail": "img/sillonaso.jpg",
+  "id": "df00ed70-b1cd-490f-9272-bbb99ddc2d77"
+ }
+]
